@@ -1,0 +1,16 @@
+PODS:
+  - GMTPod (0.0.1)
+
+DEPENDENCIES:
+  - GMTPod (from `~/Documents/Libraries/GMTPod`)
+
+EXTERNAL SOURCES:
+  GMTPod:
+    :path: "~/Documents/Libraries/GMTPod"
+
+SPEC CHECKSUMS:
+  GMTPod: 0e693a0a4958b706e9ae78ab5515a959c2c13f7b
+
+PODFILE CHECKSUM: 9abc57b65f2514bf34a48db3ba1f1e868ec65423
+
+COCOAPODS: 1.7.5

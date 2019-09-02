@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071E5343A48CFB47C7E476BEC0785E96 /* GMTPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754DCD70E72CD2A189AAAAABCC77D0DE /* GMTPod-dummy.m */; };
+		21456F0FE9B69A59E88557A90D27BFCF /* GMTPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A539CC2D75C0175E3722DA5AB4D3B31 /* GMTPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE56E2F0076FA1CA88238F7F2C1E8AC /* LineGraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92197EBBC8E22727B641C03AD2953479 /* LineGraphTest.swift */; };
+		425E6C0B97C746022994838E5EBF1EAB /* Pods-GMTApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBED5E7ECA16F5F2D0A94C19C2E4705 /* Pods-GMTApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50BC83527617B80C5131191C4A9BAF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D199F614E9BD8C4E10E611F1F178F88A /* GMTPod.h in Headers */ = {isa = PBXBuildFile; fileRef = FA436F64780F0BD8652D797617BFCC31 /* GMTPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD270D1670178BA8EBB9F1820F657BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FB258119590CFFD79BA6E5CA1DC02235 /* Pods-GMTApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6131943B24C30DB525E2335B3CC70FAB /* Pods-GMTApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8346AA78CEBE06F652E140AF631E882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE6C54702F9BDE7DF8AB9C081AA4209;
+			remoteInfo = GMTPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B378DE2F158C249B805D4EEF79C6BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		066BE3F28AC3F204F539B1F316942D55 /* Pods-GMTApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMTApp-frameworks.sh"; sourceTree = "<group>"; };
+		081BD8A329BECF76BFA251EDA78565D8 /* Pods-GMTApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTApp-Info.plist"; sourceTree = "<group>"; };
+		14411B7538B7EFA3E84FDF93657F450E /* GMTPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMTPod.modulemap; sourceTree = "<group>"; };
+		2672E66EBCC6E9057260740735C29C6C /* Pods-GMTApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4338076AFA309503FD378829D95F1202 /* Pods-GMTApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMTApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A539CC2D75C0175E3722DA5AB4D3B31 /* GMTPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTPod-umbrella.h"; sourceTree = "<group>"; };
+		6131943B24C30DB525E2335B3CC70FAB /* Pods-GMTApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMTApp-dummy.m"; sourceTree = "<group>"; };
+		6BBED5E7ECA16F5F2D0A94C19C2E4705 /* Pods-GMTApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMTApp-umbrella.h"; sourceTree = "<group>"; };
+		754DCD70E72CD2A189AAAAABCC77D0DE /* GMTPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMTPod-dummy.m"; sourceTree = "<group>"; };
+		78A8AB46367C84DCFCBF162C912B7B6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		879C447FB6B6B2A944DB4B1D26B3FDAF /* GMTPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTPod-prefix.pch"; sourceTree = "<group>"; };
+		8FB5EA03044AFAC6F5D2034EED8B9952 /* Pods-GMTApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTApp.release.xcconfig"; sourceTree = "<group>"; };
+		92197EBBC8E22727B641C03AD2953479 /* LineGraphTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineGraphTest.swift; path = GMTPod/LineGraphTest.swift; sourceTree = "<group>"; };
+		946DEE24CF487A2C809BC974FFF439E5 /* GMTPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMTPod-Info.plist"; sourceTree = "<group>"; };
+		9D41BEA0D4278D083B1E2579587D7442 /* Pods-GMTApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4C8523C3C822F051FF92D9BC389C5BB /* Pods_GMTApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMTApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF574C9227505CF19F3A59646B0262E5 /* GMTPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMTPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CFE67A99ED51126548F914DB0297E7 /* GMTPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GMTPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2C7181552752524D4257C23B30BF4ED /* GMTPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMTPod.xcconfig; sourceTree = "<group>"; };
+		FA436F64780F0BD8652D797617BFCC31 /* GMTPod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMTPod.h; path = GMTPod/GMTPod.h; sourceTree = "<group>"; };
+		FD402E35D860FE80D073F6CF2F397D48 /* Pods-GMTApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMTApp.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19555538695F687953EAD20E7AA604B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD270D1670178BA8EBB9F1820F657BEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06B250F46C074B16F9B7ECEEEC93EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50BC83527617B80C5131191C4A9BAF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EB5E896878184D4587667E14C7CE53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				818C9FDE015EA05CAEA778CB740A3EFB /* Pods-GMTApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		652496F5C25366F73C3DEEBF00AD831D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6CFE67A99ED51126548F914DB0297E7 /* GMTPod.podspec */,
+				04B378DE2F158C249B805D4EEF79C6BC /* LICENSE */,
+				78A8AB46367C84DCFCBF162C912B7B6E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7C028385CC93288618EF7F1FC03647BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF574C9227505CF19F3A59646B0262E5 /* GMTPod.framework */,
+				A4C8523C3C822F051FF92D9BC389C5BB /* Pods_GMTApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818C9FDE015EA05CAEA778CB740A3EFB /* Pods-GMTApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD402E35D860FE80D073F6CF2F397D48 /* Pods-GMTApp.modulemap */,
+				4338076AFA309503FD378829D95F1202 /* Pods-GMTApp-acknowledgements.markdown */,
+				2672E66EBCC6E9057260740735C29C6C /* Pods-GMTApp-acknowledgements.plist */,
+				6131943B24C30DB525E2335B3CC70FAB /* Pods-GMTApp-dummy.m */,
+				066BE3F28AC3F204F539B1F316942D55 /* Pods-GMTApp-frameworks.sh */,
+				081BD8A329BECF76BFA251EDA78565D8 /* Pods-GMTApp-Info.plist */,
+				6BBED5E7ECA16F5F2D0A94C19C2E4705 /* Pods-GMTApp-umbrella.h */,
+				9D41BEA0D4278D083B1E2579587D7442 /* Pods-GMTApp.debug.xcconfig */,
+				8FB5EA03044AFAC6F5D2034EED8B9952 /* Pods-GMTApp.release.xcconfig */,
+			);
+			name = "Pods-GMTApp";
+			path = "Target Support Files/Pods-GMTApp";
+			sourceTree = "<group>";
+		};
+		9B9ECA8ACBDBCC2A7197902346B415C8 /* GMTPod */ = {
+			isa = PBXGroup;
+			children = (
+				FA436F64780F0BD8652D797617BFCC31 /* GMTPod.h */,
+				92197EBBC8E22727B641C03AD2953479 /* LineGraphTest.swift */,
+				652496F5C25366F73C3DEEBF00AD831D /* Pod */,
+				DF877A0A12F183F01A144EAEBB87BCA8 /* Support Files */,
+			);
+			name = GMTPod;
+			path = /Users/sarinabibaek/Documents/Libraries/GMTPod;
+			sourceTree = "<absolute>";
+		};
+		9BFA113F7CC90E521D4A4BF9988E6F3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ECA8ACBDBCC2A7197902346B415C8 /* GMTPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9BFA113F7CC90E521D4A4BF9988E6F3B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7C028385CC93288618EF7F1FC03647BD /* Products */,
+				48EB5E896878184D4587667E14C7CE53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF877A0A12F183F01A144EAEBB87BCA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14411B7538B7EFA3E84FDF93657F450E /* GMTPod.modulemap */,
+				E2C7181552752524D4257C23B30BF4ED /* GMTPod.xcconfig */,
+				754DCD70E72CD2A189AAAAABCC77D0DE /* GMTPod-dummy.m */,
+				946DEE24CF487A2C809BC974FFF439E5 /* GMTPod-Info.plist */,
+				879C447FB6B6B2A944DB4B1D26B3FDAF /* GMTPod-prefix.pch */,
+				5A539CC2D75C0175E3722DA5AB4D3B31 /* GMTPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../../Desktop/GMTApp/Pods/Target Support Files/GMTPod";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AF3EF1A1B2759AF31AAF289145413BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21456F0FE9B69A59E88557A90D27BFCF /* GMTPod-umbrella.h in Headers */,
+				D199F614E9BD8C4E10E611F1F178F88A /* GMTPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9758F6D6B231B84E5F67E11F1C80A0B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425E6C0B97C746022994838E5EBF1EAB /* Pods-GMTApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		174185F104B57F180C5512DA2FE7AB64 /* Pods-GMTApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAF108B83F400917DCFF3627A40CBD7 /* Build configuration list for PBXNativeTarget "Pods-GMTApp" */;
+			buildPhases = (
+				9758F6D6B231B84E5F67E11F1C80A0B2 /* Headers */,
+				90BCD225652E099512B54CA786C54BA9 /* Sources */,
+				19555538695F687953EAD20E7AA604B1 /* Frameworks */,
+				E30D98A0C0CD4B332F582661197DC304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816B261BB4C1FF8AB3A2D8B46695053D /* PBXTargetDependency */,
+			);
+			name = "Pods-GMTApp";
+			productName = "Pods-GMTApp";
+			productReference = A4C8523C3C822F051FF92D9BC389C5BB /* Pods_GMTApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1BE6C54702F9BDE7DF8AB9C081AA4209 /* GMTPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A723F130C943475F60B02E75A19D33E0 /* Build configuration list for PBXNativeTarget "GMTPod" */;
+			buildPhases = (
+				4AF3EF1A1B2759AF31AAF289145413BE /* Headers */,
+				7F526771AD7058D6AA6A53C7C306B487 /* Sources */,
+				C06B250F46C074B16F9B7ECEEEC93EDF /* Frameworks */,
+				43A9A2C9F56A7893B70023DAA8F98F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMTPod;
+			productName = GMTPod;
+			productReference = BF574C9227505CF19F3A59646B0262E5 /* GMTPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7C028385CC93288618EF7F1FC03647BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE6C54702F9BDE7DF8AB9C081AA4209 /* GMTPod */,
+				174185F104B57F180C5512DA2FE7AB64 /* Pods-GMTApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A9A2C9F56A7893B70023DAA8F98F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30D98A0C0CD4B332F582661197DC304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F526771AD7058D6AA6A53C7C306B487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E5343A48CFB47C7E476BEC0785E96 /* GMTPod-dummy.m in Sources */,
+				3DE56E2F0076FA1CA88238F7F2C1E8AC /* LineGraphTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BCD225652E099512B54CA786C54BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB258119590CFFD79BA6E5CA1DC02235 /* Pods-GMTApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816B261BB4C1FF8AB3A2D8B46695053D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GMTPod;
+			target = 1BE6C54702F9BDE7DF8AB9C081AA4209 /* GMTPod */;
+			targetProxy = D8346AA78CEBE06F652E140AF631E882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B223BF302ADDCA93C10E2F8E8EBCC545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB5EA03044AFAC6F5D2034EED8B9952 /* Pods-GMTApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMTApp/Pods-GMTApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMTApp/Pods-GMTApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5671F935AE9967ADF2259C633A01BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7181552752524D4257C23B30BF4ED /* GMTPod.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "Target Support Files/GMTPod/GMTPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMTPod/GMTPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GMTPod/GMTPod.modulemap";
+				PRODUCT_MODULE_NAME = GMTPod;
+				PRODUCT_NAME = GMTPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DECABDF3CE00605E0B87CD180328B1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7181552752524D4257C23B30BF4ED /* GMTPod.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GMTPod/GMTPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMTPod/GMTPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GMTPod/GMTPod.modulemap";
+				PRODUCT_MODULE_NAME = GMTPod;
+				PRODUCT_NAME = GMTPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF71618576145AA55FD8983D621756E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D41BEA0D4278D083B1E2579587D7442 /* Pods-GMTApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMTApp/Pods-GMTApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMTApp/Pods-GMTApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EAF108B83F400917DCFF3627A40CBD7 /* Build configuration list for PBXNativeTarget "Pods-GMTApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF71618576145AA55FD8983D621756E0 /* Debug */,
+				B223BF302ADDCA93C10E2F8E8EBCC545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A723F130C943475F60B02E75A19D33E0 /* Build configuration list for PBXNativeTarget "GMTPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECABDF3CE00605E0B87CD180328B1A0 /* Debug */,
+				C5671F935AE9967ADF2259C633A01BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
