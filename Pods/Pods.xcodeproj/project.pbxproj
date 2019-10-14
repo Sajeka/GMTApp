@@ -14,6 +14,7 @@
 		88552640C8EEEFB0BA62D0FBF4B4EFFF /* TrendLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253E654041D77F9260DE38472F8B54D /* TrendLine.swift */; };
 		961164FA2339F0C500F57367 /* BarChartObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961164F92339F0C500F57367 /* BarChartObj.swift */; };
 		96637AE02339144B000FC0B0 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96637ADF2339144B000FC0B0 /* BarChart.swift */; };
+		96C9BD96235063B600921C5C /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9BD95235063B600921C5C /* HistogramView.swift */; };
 		C59AD9A4337E134B543692BF2DA13915 /* LineGraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4324BB8E51E85F88A6E97946A12B0495 /* LineGraphTest.swift */; };
 		DAA6C07245F8E5DBCB024FC3F5D9B654 /* GMTPod.h in Headers */ = {isa = PBXBuildFile; fileRef = CC05D5F8E3759EC6E8F1026072B70C93 /* GMTPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD270D1670178BA8EBB9F1820F657BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -51,6 +52,7 @@
 		8FB5EA03044AFAC6F5D2034EED8B9952 /* Pods-GMTApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTApp.release.xcconfig"; sourceTree = "<group>"; };
 		961164F92339F0C500F57367 /* BarChartObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartObj.swift; sourceTree = "<group>"; };
 		96637ADF2339144B000FC0B0 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		96C9BD95235063B600921C5C /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
 		9D41BEA0D4278D083B1E2579587D7442 /* Pods-GMTApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A253E654041D77F9260DE38472F8B54D /* TrendLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrendLine.swift; path = GMTPod/TrendLine.swift; sourceTree = "<group>"; };
@@ -178,14 +180,15 @@
 		F17263B5F8AF213FB5EB641B1886F117 /* GMTPod */ = {
 			isa = PBXGroup;
 			children = (
+				96637ADF2339144B000FC0B0 /* BarChart.swift */,
+				961164F92339F0C500F57367 /* BarChartObj.swift */,
 				CC05D5F8E3759EC6E8F1026072B70C93 /* GMTPod.h */,
 				26A997B8CBFCFE9195862797FB5E5CBD /* Graph.swift */,
+				96C9BD95235063B600921C5C /* HistogramView.swift */,
 				4324BB8E51E85F88A6E97946A12B0495 /* LineGraphTest.swift */,
 				A253E654041D77F9260DE38472F8B54D /* TrendLine.swift */,
 				A9E8DACD7F93AECA97B47025B595EDA7 /* Pod */,
 				582FF89DA5B4340C9B6F8B3C797142E9 /* Support Files */,
-				96637ADF2339144B000FC0B0 /* BarChart.swift */,
-				961164F92339F0C500F57367 /* BarChartObj.swift */,
 			);
 			name = GMTPod;
 			path = /Users/sarinabibaek/Documents/Libraries/GMTPod;
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				380C4B6DD74E52EEFD7BB29CEE9EE3CD /* GMTPod-dummy.m in Sources */,
+				96C9BD96235063B600921C5C /* HistogramView.swift in Sources */,
 				57D880D68B536C873CBEE3EFC3DACAEA /* Graph.swift in Sources */,
 				C59AD9A4337E134B543692BF2DA13915 /* LineGraphTest.swift in Sources */,
 				96637AE02339144B000FC0B0 /* BarChart.swift in Sources */,

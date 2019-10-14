@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     
     
 //    @IBOutlet weak var lineGraphView: LineGraphTest!
-        @IBOutlet weak var lineGraphView: BarChart!
+//        @IBOutlet weak var lineGraphView: BarChart!
+    @IBOutlet weak var lineGraphView: HistogramView!
     
     
     override func viewDidLoad() {
@@ -67,33 +68,54 @@ class ViewController: UIViewController {
         /*
          Bar graph code
          */
-                let barChart1: BarChartObj = BarChartObj(barChartPoints: [6500.5,7200.0,7500.0,5490.0,6730.0], barColor: .red, barChartCategory: "Shoes", lineWidth: 1.0)
-                let barChart2: BarChartObj = BarChartObj(barChartPoints: [2000.8,1800.0,5550.0,6550.0,7000.0], barColor: .blue, barChartCategory: "Bags", lineWidth: 1.0)
-                let barChart3: BarChartObj = BarChartObj(barChartPoints: [7020.3,5900.0,4620.0,5500.0,4700.0], barColor: .green, barChartCategory: "Perfumes", lineWidth: 1.0)
-        //        let barChart4: BarChartObj = BarChartObj(barChartPoints: [3080.3,2900.0,7620.0,5010.0,4100.0], barColor: .purple, barChartCategory: "Dresses", lineWidth: 1.0)
-                let barChartArray = [barChart1, barChart2, barChart3]
-                let yAxis = BarChart.YAxis(yAxisMinValue: 0, yAxisMaxValue: 8000, yAxisNumberOfElements: 5, yAxisFormatter: BarChart.YAxisFormatter.thousand)
-                let customizedCategory = BarChart.Category(categoryOrientation: BarChart.CategoryOrientation.vertical, paddingBetweenCategories: 5, categoryColorBoxSize: BarChart.CategoryBoxSize.medium)
-                let customizedCategoryText = BarChart.TextAttributes(textColor: .black, textFont: UIFont(name: "Avenir-Light", size: 10), textSize: nil)
-        let animation = BarChart.Animation(barAnimationDuration: BarChart.BarAnimationDuration.linearWithRandomizedStart, durationParameter: 3)
-//                lineGraphView.setCornerRadius(width: 5.0, height: 5.0)
-                lineGraphView.adjustBorders(addToTopBorder: 0, addToRightBorder: 0, addToBottomBorder: 5, addToLeftBorder: 0)
-
-        lineGraphView.createBarChart(barCharts: barChartArray, xAxisStrings: ["Man","Tir","Ons","Tor"], yAxis: yAxis, animation: animation)
-                lineGraphView.customizeCategories(customizedCategory: customizedCategory, customizedTextAttributes: customizedCategoryText)
-
-
-
-                lineGraphView.setXValuesRotationInDegrees(degree:  Double(270))
-        lineGraphView.addBarChartTitle(title: "Ugentllig salg", titleFont: nil, titleColor: UIColor.black, titleSize: 16)
-
-                lineGraphView.setTitlePlacement(titlePlacement: BarChart.TitlePlacement.left, horizontalOffset: 0.0, verticalOffset: 0.0)
-                lineGraphView.setHelperLines(helperLines: BarChart.HelperLines(helperLinesColor: .gray, helperLinesLineWidth: 0.5, helperLinesDashes: (2.0, 2.0)))
-                let formatter = NumberFormatter()
-                formatter.numberStyle = .currency
-                lineGraphView.formatInfoBoxText(numberFormatter: formatter)
-
-                lineGraphView.setNeedsDisplay()
+//                let barChart1: BarChartObj = BarChartObj(barChartPoints: [6500.5,7200.0,7500.0,5490.0,6730.0], barColor: .red, barChartCategory: "Shoes", lineWidth: 1.0)
+//                let barChart2: BarChartObj = BarChartObj(barChartPoints: [2000.8,1800.0,5550.0,6550.0,7000.0], barColor: .blue, barChartCategory: "Bags", lineWidth: 1.0)
+//                let barChart3: BarChartObj = BarChartObj(barChartPoints: [7020.3,5900.0,4620.0,5500.0,4700.0], barColor: .green, barChartCategory: "Perfumes", lineWidth: 1.0)
+//        //        let barChart4: BarChartObj = BarChartObj(barChartPoints: [3080.3,2900.0,7620.0,5010.0,4100.0], barColor: .purple, barChartCategory: "Dresses", lineWidth: 1.0)
+//                let barChartArray = [barChart1, barChart2, barChart3]
+//                let yAxis = BarChart.YAxis(yAxisMinValue: 0, yAxisMaxValue: 8000, yAxisNumberOfElements: 5, yAxisFormatter: BarChart.YAxisFormatter.thousand)
+//                let customizedCategory = BarChart.Category(categoryOrientation: BarChart.CategoryOrientation.vertical, paddingBetweenCategories: 5, categoryColorBoxSize: BarChart.CategoryBoxSize.medium)
+//                let customizedCategoryText = BarChart.TextAttributes(textColor: .black, textFont: UIFont(name: "Avenir-Light", size: 10), textSize: nil)
+//        let animation = BarChart.Animation(barAnimationDuration: BarChart.BarAnimationDuration.linearWithRandomizedStart, durationParameter: 3)
+////                lineGraphView.setCornerRadius(width: 5.0, height: 5.0)
+//                lineGraphView.adjustBorders(addToTopBorder: 0, addToRightBorder: 0, addToBottomBorder: 5, addToLeftBorder: 0)
+//
+//        lineGraphView.createBarChart(barCharts: barChartArray, xAxisStrings: ["Man","Tir","Ons","Tor"], yAxis: yAxis, animation: animation)
+//                lineGraphView.customizeCategories(customizedCategory: customizedCategory, customizedTextAttributes: customizedCategoryText)
+//
+//
+//
+//                lineGraphView.setXValuesRotationInDegrees(degree:  Double(270))
+//        lineGraphView.addBarChartTitle(title: "Ugentllig salg", titleFont: nil, titleColor: UIColor.black, titleSize: 16)
+//
+//                lineGraphView.setTitlePlacement(titlePlacement: BarChart.TitlePlacement.left, horizontalOffset: 0.0, verticalOffset: 0.0)
+//                lineGraphView.setHelperLines(helperLines: BarChart.HelperLines(helperLinesColor: .gray, helperLinesLineWidth: 0.5, helperLinesDashes: (2.0, 2.0)))
+//                let formatter = NumberFormatter()
+//                formatter.numberStyle = .currency
+//                lineGraphView.formatInfoBoxText(numberFormatter: formatter)
+//
+//                lineGraphView.setNeedsDisplay()
+        
+        /*
+         Histogram code
+         */
+        let histogramDataPoints = [10.0, 20.0, 15.0, 44.0, 34.0, 23.0, 67.0, 65.0, 87.0, 12.0, 32.0, 43.0, 77.0, 8.0, 16.0, 47.0, 42.0, 82.0]
+        let histogram = HistogramView.Histogram(histogramDataPoints: histogramDataPoints,
+                                                xAxis: HistogramView.XAxis(xAxisMinValue: 0,
+                                                                           xAxisMaxValue: 100,
+                                                                           xAxisNumberOfBars: 10,
+                                                                           xAxisFormatter: HistogramView.AxisFormatter.one),
+                                                yAxis: HistogramView.YAxis(yAxisValueType: HistogramView.YAxisValueType.frequency,
+                                                                           yAxisMinValue: 0,
+                                                                           yAxisMaxValue: 10,
+                                                                           yAxisNumberOfElements: 6,
+                                                                           yAxisFormatter: HistogramView.AxisFormatter.one))
+        
+        lineGraphView.createHistogram(histogram: histogram)
+        lineGraphView.addHistogramTitle(title: "test af title", titleFont: nil, titleColor: nil, titleSize: 16)
+        lineGraphView.adjustBorders(addToTopBorder: 10, addToRightBorder: 0, addToBottomBorder: 20, addToLeftBorder: 0)
+        lineGraphView.setXValuesRotationInDegrees(degree: 270)
+        lineGraphView.setNeedsDisplay()
         
     }
 }
