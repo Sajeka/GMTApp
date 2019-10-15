@@ -89,32 +89,38 @@ class ViewController: UIViewController {
 //        lineGraphView.addBarChartTitle(title: "Ugentllig salg", titleFont: nil, titleColor: UIColor.black, titleSize: 16)
 //
 //                lineGraphView.setTitlePlacement(titlePlacement: BarChart.TitlePlacement.left, horizontalOffset: 0.0, verticalOffset: 0.0)
-//                lineGraphView.setHelperLines(helperLines: BarChart.HelperLines(helperLinesColor: .gray, helperLinesLineWidth: 0.5, helperLinesDashes: (2.0, 2.0)))
-//                let formatter = NumberFormatter()
-//                formatter.numberStyle = .currency
-//                lineGraphView.formatInfoBoxText(numberFormatter: formatter)
-//
-//                lineGraphView.setNeedsDisplay()
+        //                lineGraphView.setHelperLines(helperLines: BarChart.HelperLines(helperLinesColor: .gray, helperLinesLineWidth: 0.5, helperLinesDashes: (2.0, 2.0)))
+        //                let formatter = NumberFormatter()
+        //                formatter.numberStyle = .currency
+        //                lineGraphView.formatInfoBoxText(numberFormatter: formatter)
+        //
+        //                lineGraphView.setNeedsDisplay()
         
         /*
          Histogram code
          */
-        let histogramDataPoints = [10.0, 20.0, 15.0, 44.0, 34.0, 23.0, 67.0, 65.0, 87.0, 12.0, 32.0, 43.0, 77.0, 8.0, 16.0, 47.0, 42.0, 82.0]
+        let animation = HistogramView.Animation(barAnimationDuration: HistogramView.BarAnimationDuration.linearWithRandomizedStart, durationParameter: 3)
+        let histogramDataPoints = [100.0, 200.0, 150.0, 440.0, 340.0, 230.0, 670.0, 650.0, 670.0, 120.0, 320.0, 430.0, 770.0, 80.0, 160.0, 470.0, 420.0, 720.0]
+        
         let histogram = HistogramView.Histogram(histogramDataPoints: histogramDataPoints,
+                                                barColor: .blue,
                                                 xAxis: HistogramView.XAxis(xAxisMinValue: 0,
-                                                                           xAxisMaxValue: 100,
-                                                                           xAxisNumberOfBars: 10,
-                                                                           xAxisFormatter: HistogramView.AxisFormatter.one),
+                                                                           xAxisMaxValue: 800,
+                                                                           xAxisNumberOfBars: 8,
+                                                                           xAxisFormatter: HistogramView.AxisFormatter.hundred),
                                                 yAxis: HistogramView.YAxis(yAxisValueType: HistogramView.YAxisValueType.frequency,
                                                                            yAxisMinValue: 0,
                                                                            yAxisMaxValue: 10,
                                                                            yAxisNumberOfElements: 6,
-                                                                           yAxisFormatter: HistogramView.AxisFormatter.one))
+                                                                           yAxisFormatter: HistogramView.AxisFormatter.hundred))
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .currency
         
-        lineGraphView.createHistogram(histogram: histogram)
-        lineGraphView.addHistogramTitle(title: "test af title", titleFont: nil, titleColor: nil, titleSize: 16)
-        lineGraphView.adjustBorders(addToTopBorder: 10, addToRightBorder: 0, addToBottomBorder: 20, addToLeftBorder: 0)
+        
+        lineGraphView.createHistogram(histogram: histogram, animation: animation)
+        lineGraphView.histogramTitle = "Test"
         lineGraphView.setXValuesRotationInDegrees(degree: 270)
+//        lineGraphView.rightBorder = 10
         lineGraphView.setNeedsDisplay()
         
     }
