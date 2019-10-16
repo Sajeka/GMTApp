@@ -101,17 +101,18 @@ class ViewController: UIViewController {
          */
         let animation = HistogramView.Animation(barAnimationDuration: HistogramView.BarAnimationDuration.linearWithRandomizedStart, durationParameter: 3)
         let histogramDataPoints = [100.0, 200.0, 150.0, 440.0, 340.0, 230.0, 670.0, 650.0, 670.0, 120.0, 320.0, 430.0, 770.0, 80.0, 160.0, 470.0, 420.0, 720.0]
+        let yAxis = YAxis(yAxisMinValue: 0,
+                          yAxisMaxValue: 10,
+                          yAxisNumberOfElements: 6,
+                          yAxisFormatter: AxisFormatter.FormatAxisBy.one)
         
         let histogram = HistogramView.Histogram(histogramDataPoints: histogramDataPoints,
                                                 barColor: .blue,
                                                 xAxis: HistogramView.XAxis(xAxisMinValue: 0,
                                                                            xAxisMaxValue: 800,
                                                                            xAxisNumberOfBars: 8,
-                                                                           xAxisFormatter: HistogramView.AxisFormatter.hundred),
-                                                yAxis: HistogramView.YAxis(yAxisMinValue: 0,
-                                                                           yAxisMaxValue: 10,
-                                                                           yAxisNumberOfElements: 6,
-                                                                           yAxisFormatter: HistogramView.AxisFormatter.one))
+                                                                           xAxisFormatter: AxisFormatter.FormatAxisBy.hundred),
+                                                yAxis: yAxis)
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .currency
         
