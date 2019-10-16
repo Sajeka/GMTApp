@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     
 //    @IBOutlet weak var lineGraphView: LineGraphTest!
-//        @IBOutlet weak var lineGraphView: BarChart!
+//        @IBOutlet weak var lineGraphView: BarChartView!
     @IBOutlet weak var lineGraphView: HistogramView!
     
     
@@ -108,11 +108,10 @@ class ViewController: UIViewController {
                                                                            xAxisMaxValue: 800,
                                                                            xAxisNumberOfBars: 8,
                                                                            xAxisFormatter: HistogramView.AxisFormatter.hundred),
-                                                yAxis: HistogramView.YAxis(yAxisValueType: HistogramView.YAxisValueType.frequency,
-                                                                           yAxisMinValue: 0,
+                                                yAxis: HistogramView.YAxis(yAxisMinValue: 0,
                                                                            yAxisMaxValue: 10,
                                                                            yAxisNumberOfElements: 6,
-                                                                           yAxisFormatter: HistogramView.AxisFormatter.hundred))
+                                                                           yAxisFormatter: HistogramView.AxisFormatter.one))
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .currency
         
@@ -120,8 +119,9 @@ class ViewController: UIViewController {
         lineGraphView.createHistogram(histogram: histogram, animation: animation)
         lineGraphView.histogramTitle = "Test"
         lineGraphView.setXValuesRotationInDegrees(degree: 270)
-//        lineGraphView.rightBorder = 10
+        lineGraphView.infoBoxNumberFormatter = numberFormatter
         lineGraphView.setNeedsDisplay()
+
         
     }
 }
