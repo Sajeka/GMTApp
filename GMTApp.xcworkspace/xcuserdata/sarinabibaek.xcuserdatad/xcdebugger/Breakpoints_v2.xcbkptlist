@@ -78,22 +78,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C0204F42-6E88-4A23-BB22-16CC47FFCF8C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../Documents/Libraries/GMTPod/GMTPod/LineGraphTest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "661"
-            endingLineNumber = "661"
-            landmarkName = "draw(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "AFCF0C71-0CE1-477D-AD8B-200D806B8C25"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -222,15 +206,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4D261CC6-055E-474F-A332-F8465CA67B50"
+            uuid = "03C6DF97-2C40-4E8A-8AA2-62A03259EB37"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Documents/Libraries/GMTPod/GMTPod/BarChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "229"
-            endingLineNumber = "229"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "draw(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -238,15 +222,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7C2CE14E-2819-4F96-B9DE-9A4E77C9BBA0"
+            uuid = "3B7293F9-B87D-4221-9CA6-BAA857A8CD44"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Documents/Libraries/GMTPod/GMTPod/BarChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "draw(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BC5217C-A513-4463-9E2C-ED906AF752DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Documents/Libraries/GMTPod/GMTPod/BarChartView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
             landmarkName = "draw(_:)"
             landmarkType = "7">
          </BreakpointContent>
