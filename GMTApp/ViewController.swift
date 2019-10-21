@@ -54,8 +54,9 @@ class ViewController: UIViewController {
                                                                          yAxisMaxValue: 100,
                                                                          yAxisNumberOfElements: 6,
                                                                          yAxisFormatter: AxisFormatter.FormatAxisBy.one), animation: graph1Animation)
-//        lineGraphView.setXValuesRotationInDegrees(degree: 270)
-                lineGraphView.setNeedsDisplay()
+        lineGraphView.setXValuesRotationInDegrees(degree: 320)
+        lineGraphView.title.barChartTitle = "Ugentligt salg"
+        lineGraphView.setNeedsDisplay()
         
         /*
          Bar graph code
