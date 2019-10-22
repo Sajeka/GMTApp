@@ -12,9 +12,10 @@ import GMTPod
 class ViewController: UIViewController {
     
     
-        @IBOutlet weak var lineGraphView: LineGraphTest!
+//        @IBOutlet weak var lineGraphView: LineGraphTest!
 //    @IBOutlet weak var lineGraphView: BarChartView!
 //        @IBOutlet weak var lineGraphView: HistogramView!
+    @IBOutlet weak var lineGraphView: PieChartView!
     
     
     override func viewDidLoad() {
@@ -27,36 +28,36 @@ class ViewController: UIViewController {
         /*
          Line Graph code
          */
-                let formatter = NumberFormatter()
-                formatter.numberStyle = .currency
-        
-                let graph1Animation = LineGraphTest.Animation(animate: LineGraphTest.Animate.animateOnlyTrendLine, animationDuration: 3.0)
-        
-                let graph1Trendline = TrendLine(trendLineColor: .green, trendLineWidth: 1.0)
-                let graph2Trendline = TrendLine(trendLineColor: .orange, trendLineWidth: 2.0)
-        
-                let graph1: Graph = Graph(graphPoints: [25.0,12.0,75.0,49.0,73.0],
-                                          graphColor: .blue,
-                                          lineGraphCategory: "Shoes",
-                                          lineWidth: 1.0,
-                                          trendLine: graph1Trendline,
-                                          circleRadius: 3.0)
-                let graph2: Graph = Graph(graphPoints: [32.0,18.0,26.0,20.0,15.0],
-                                          graphColor: .purple,
-                                          lineGraphCategory: "Bags",
-                                          lineWidth: 2.0,
-                                          trendLine: graph2Trendline,
-                                          circleRadius: 3.0)
-        
-                lineGraphView.createLineGraph(lineGraphs: [graph1, graph2],
-                                              xAxisStrings: ["Man", "Tir", "Ons", "Tor", "Fre"],
-                                              yAxis: YAxis(yAxisMinValue: 0,
-                                                                         yAxisMaxValue: 100,
-                                                                         yAxisNumberOfElements: 6,
-                                                                         yAxisFormatter: AxisFormatter.FormatAxisBy.one), animation: graph1Animation)
-        lineGraphView.setXValuesRotationInDegrees(degree: 320)
-        lineGraphView.title.barChartTitle = "Ugentligt salg"
-        lineGraphView.setNeedsDisplay()
+//                let formatter = NumberFormatter()
+//                formatter.numberStyle = .currency
+//
+//                let graph1Animation = LineGraphTest.Animation(animate: LineGraphTest.Animate.animateOnlyTrendLine, animationDuration: 3.0)
+//
+//                let graph1Trendline = TrendLine(trendLineColor: .green, trendLineWidth: 1.0)
+//                let graph2Trendline = TrendLine(trendLineColor: .orange, trendLineWidth: 2.0)
+//
+//                let graph1: Graph = Graph(graphPoints: [25.0,12.0,75.0,49.0,73.0],
+//                                          graphColor: .blue,
+//                                          lineGraphCategory: "Shoes",
+//                                          lineWidth: 1.0,
+//                                          trendLine: graph1Trendline,
+//                                          circleRadius: 3.0)
+//                let graph2: Graph = Graph(graphPoints: [32.0,18.0,26.0,20.0,15.0],
+//                                          graphColor: .purple,
+//                                          lineGraphCategory: "Bags",
+//                                          lineWidth: 2.0,
+//                                          trendLine: graph2Trendline,
+//                                          circleRadius: 3.0)
+//
+//                lineGraphView.createLineGraph(lineGraphs: [graph1, graph2],
+//                                              xAxisStrings: ["Man", "Tir", "Ons", "Tor", "Fre"],
+//                                              yAxis: YAxis(yAxisMinValue: 0,
+//                                                                         yAxisMaxValue: 100,
+//                                                                         yAxisNumberOfElements: 6,
+//                                                                         yAxisFormatter: AxisFormatter.FormatAxisBy.one), animation: graph1Animation)
+//        lineGraphView.setXValuesRotationInDegrees(degree: 320)
+//        lineGraphView.title.barChartTitle = "Ugentligt salg"
+//        lineGraphView.setNeedsDisplay()
         
         /*
          Bar graph code
@@ -73,15 +74,10 @@ class ViewController: UIViewController {
 //        lineGraphView.createBarChart(barCharts: barChartArray, xAxisStrings: ["Man","Tir","Ons","Tor", "Fre"], yAxis: yAxis, animation: animation)
 //
 //        lineGraphView.setXValuesRotationInDegrees(degree:  Double(270))
-//        lineGraphView.barChartTitle = "Ugentligt salg"
+//
 //
 //        let formatter = NumberFormatter()
 //        formatter.numberStyle = .currency
-//
-//        lineGraphView.infoBoxNumberFormatter = formatter
-//       let category = Category(categoryOrientation: CategoryOrientation.vertical, paddingBetweenCategories: 5.0, categoryColorBoxSize: CategoryBoxSize.medium)
-//
-//        lineGraphView.category = category
 //
 //        lineGraphView.setNeedsDisplay()
     
@@ -111,6 +107,22 @@ class ViewController: UIViewController {
 //                lineGraphView.setXValuesRotationInDegrees(degree: 270)
 //                lineGraphView.infoBoxNumberFormatter = numberFormatter
 //                lineGraphView.setNeedsDisplay()
+        
+        /*
+         Pie Chart code
+         */
+        let pieChartCategories = [PieChartView.PieChartCategories(categoryName: "Shoes",
+                                                                  categoryColor: .red,
+                                                                  numberOfItemsInCategory: 165),
+                                  PieChartView.PieChartCategories(categoryName: "Bags",
+                                                                  categoryColor: .blue,
+                                                                  numberOfItemsInCategory: 555),
+                                  PieChartView.PieChartCategories(categoryName: "Perfumes",
+                                                                  categoryColor: .yellow,
+                                                                  numberOfItemsInCategory: 263)]
+        let pieChart = PieChartView.PieChart(pieChartCategories: pieChartCategories)
+        lineGraphView.createPieChart(pieChart: pieChart)
+        lineGraphView.setNeedsDisplay()
     }
 }
 
