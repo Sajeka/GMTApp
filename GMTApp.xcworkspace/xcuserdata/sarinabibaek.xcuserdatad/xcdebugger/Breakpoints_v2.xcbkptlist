@@ -174,32 +174,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "51109FEB-0E49-4035-AB12-8F049997E4A2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../Documents/Libraries/GMTPod/GMTPod/HistogramView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "draw(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EF59EFA7-BFCB-4118-A775-58AE5C8FBF1F"
+            uuid = "D1F3AF77-99A0-445E-90E9-A9F84F6F5941"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Documents/Libraries/GMTPod/GMTPod/PieChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "draw(_:)"
+            startingLineNumber = "420"
+            endingLineNumber = "420"
+            landmarkName = "animateFill(pieChart:circleCenter:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

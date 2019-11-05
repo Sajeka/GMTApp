@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1318255ECDA1F4C3F0F36DFAAFAC8538 /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D5739DDCF68AD8A04A640E34E8E08C /* HistogramView.swift */; };
-		24FFD46D50698170A6712F8C64666FCB /* BarChartObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232066DCB1277656FE4F671EB10A724C /* BarChartObj.swift */; };
-		274BB80EA9C91F2C1A3593B1E8381DA9 /* YAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = C133205211FF870A13AD147B1E0E72F9 /* YAxis.swift */; };
-		40ECDEFE08D345F259603EB94A8EEF42 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7944E3418B29FF1DE278DFCD28595078 /* Border.swift */; };
+		1696ADE7645433CE4CF1F96F674D8557 /* Helperlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD9444C066B7E8CA10FD554C92C3206 /* Helperlines.swift */; };
+		1A9054D9C4EAE79572D0088FFC9DBD26 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7637ADD37FFE5FC06498F9B58DA101DB /* Graph.swift */; };
+		32625EC6816C70F0A2E06AAAB254EF9B /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA289D29EF33286685F1E15E0E3F4A /* BarChartView.swift */; };
 		425E6C0B97C746022994838E5EBF1EAB /* Pods-GMTApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBED5E7ECA16F5F2D0A94C19C2E4705 /* Pods-GMTApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F4739859D6473A20C82E0E308CF3B77 /* GMTPod.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ADA6645A3CBF338B66B731EDADF5B8 /* GMTPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52BE2D05FA873F62C327875EA31D197E /* TrendLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0F81EDE354B6AF3D41697A24A5648 /* TrendLine.swift */; };
-		8756819DB761656803B0A2C59A2875A3 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EFB1C5B702D307D2E55C17CD98FC /* PieChartView.swift */; };
-		9DD619239A9B82ADD35A42E4D401A487 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD11B77DFF8EDDF20BFBFADC46DEAFF /* Category.swift */; };
-		A1CA703407D3C78C87D3A08685914CC2 /* GMTPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78751D7A1589BB24C1FE833017D991F7 /* GMTPod-dummy.m */; };
-		A8DC527B52DEF1502D99B84708819B14 /* Helperlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B33F191C35B193C282A043D3298325 /* Helperlines.swift */; };
-		B900987D9C518BCBB8696E7BF3FDF94D /* LineGraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75AE6ABE42D6BB0E0D6DF5EF258E832 /* LineGraphTest.swift */; };
-		C03A196AF4356A7AEBDDC0F4E0305E49 /* AxisFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE725DF350AAB0082C24BCE7F072816E /* AxisFormatter.swift */; };
-		D5511930AB20101AD7249D48C4B1EEFB /* AxesText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5BE2C0F492017D30BCCFD94223D0CD /* AxesText.swift */; };
-		D55F24B0FB3ABDC627AA68A040334EFD /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3480614806C9337D3B8C8FA17E1C5 /* InfoBox.swift */; };
+		4859C1CA73D36E15B215BED541A4C5CF /* TitlePlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8ADC0A68B2F4674D90905A44D3BD7D /* TitlePlacement.swift */; };
+		4B37A12791177DF505A197482BFAC140 /* YAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23FEF7AA77A17AAA7A09099E24FB3A /* YAxis.swift */; };
+		507929BF7B47105A8DF6A63669390586 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC879BE9EE9E144633A653D7BB2C47 /* PieChartView.swift */; };
+		6A095B4897539AD94CD5BE3CC418D242 /* AxesText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76057D31D59611193E9F680C0071F60A /* AxesText.swift */; };
+		6A429360236893E5C555DD94869DE95F /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBDF2146AA987E417BB160297E4EDEB /* InfoBox.swift */; };
+		81567A9841CF678823BBD7881C588922 /* TrendLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6D488FFF958B7957B74A20DC13994 /* TrendLine.swift */; };
+		8E20C74E16538B59077D8CA21D811A00 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DABDCC64B0FE62F7F3C775BF610146 /* Border.swift */; };
+		9889AFB1C05EA4FBDA500A4E14C007B5 /* GMTPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A240F15C78D0C2DE357F1DD3A496D20 /* GMTPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F587C441FFCDEE8ECFF567E45F22452 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17302D878BC48703B4C1DED85A4C1F /* Category.swift */; };
+		B463B3FD466DB14C9F4FD43F5B5274FC /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD232E18F5C8F662795287368FDC043 /* HistogramView.swift */; };
+		C0B2AD6ACCCC64961F4AD08CA959FB53 /* LineGraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA89A5FB4434194EE7A9A4B3A67E0E /* LineGraphTest.swift */; };
+		C5BEDAC9E3B9E4922038593C9EC38D53 /* GMTPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA9EBC0D7F825F9462C9DAAF3B084D0 /* GMTPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F1489093618AA021D5BE342A32A23F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D772C9485C1060317AF1A6B666F02E80 /* ParentGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA85BAB5FFA25CA68A698D01F94B041 /* ParentGraph.swift */; };
 		DD270D1670178BA8EBB9F1820F657BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DFB92F1D6FA8D5C7610039036DD95D61 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4000068DA33EA70234820880C7B37 /* Title.swift */; };
-		EC62AAEFD1E2EE22E74B8A451FDADD4F /* TitlePlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB049004FD7EE25308CA80B7B061848D /* TitlePlacement.swift */; };
-		F06DD6D573D9FD66F36554D06DBF9016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F0FB7753795C0F849DB50127C2B7C6BE /* GMTPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B35BE5BDE51A8B2EA5240A18CD67512 /* GMTPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6BEB4743206BAB75A6749AE7B5DA9A8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AB17437774BF42866BE52D9B7343E6 /* Graph.swift */; };
-		F92F81E213BBC990807E5F321282743D /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8D2DB9ABE6F7993287F9497035A94 /* BarChartView.swift */; };
+		E77D04AC9550C6223F4800D919A89A20 /* BarChartObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678AD34E1A7C2EEEBBA12693E6396605 /* BarChartObj.swift */; };
+		ECAB3ED0CBE4B9524174C5C76B7CFD7D /* AxisFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E0826ABAA722B5177946ECE6C2AEAF /* AxisFormatter.swift */; };
+		EE45D6F93488C8E0F50777FA789E5E23 /* GMTPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1F67063FABDA73B83BF6E3E7FE7D9 /* GMTPod-dummy.m */; };
+		FA1D17A599832EC64011934AE6010D0D /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE332944F4F760235463C86F2112650 /* Title.swift */; };
 		FB258119590CFFD79BA6E5CA1DC02235 /* Pods-GMTApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6131943B24C30DB525E2335B3CC70FAB /* Pods-GMTApp-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -43,56 +44,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C6D488FFF958B7957B74A20DC13994 /* TrendLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrendLine.swift; path = GMTPod/TrendLine.swift; sourceTree = "<group>"; };
 		066BE3F28AC3F204F539B1F316942D55 /* Pods-GMTApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMTApp-frameworks.sh"; sourceTree = "<group>"; };
 		081BD8A329BECF76BFA251EDA78565D8 /* Pods-GMTApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTApp-Info.plist"; sourceTree = "<group>"; };
-		09C3480614806C9337D3B8C8FA17E1C5 /* InfoBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfoBox.swift; path = GMTPod/InfoBox.swift; sourceTree = "<group>"; };
-		0AD8D2DB9ABE6F7993287F9497035A94 /* BarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartView.swift; path = GMTPod/BarChartView.swift; sourceTree = "<group>"; };
-		1B35BE5BDE51A8B2EA5240A18CD67512 /* GMTPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTPod-umbrella.h"; sourceTree = "<group>"; };
-		2032B9287AA568E540263ACF33E71E6A /* GMTPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GMTPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		22A0F81EDE354B6AF3D41697A24A5648 /* TrendLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrendLine.swift; path = GMTPod/TrendLine.swift; sourceTree = "<group>"; };
-		232066DCB1277656FE4F671EB10A724C /* BarChartObj.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartObj.swift; path = GMTPod/BarChartObj.swift; sourceTree = "<group>"; };
+		0BD1F67063FABDA73B83BF6E3E7FE7D9 /* GMTPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMTPod-dummy.m"; sourceTree = "<group>"; };
 		2672E66EBCC6E9057260740735C29C6C /* Pods-GMTApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		26E4000068DA33EA70234820880C7B37 /* Title.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Title.swift; path = GMTPod/Title.swift; sourceTree = "<group>"; };
+		2EBDF2146AA987E417BB160297E4EDEB /* InfoBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfoBox.swift; path = GMTPod/InfoBox.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34E0DFBAFA115EF837AC8A441EF90DE2 /* GMTPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTPod-prefix.pch"; sourceTree = "<group>"; };
-		35D5739DDCF68AD8A04A640E34E8E08C /* HistogramView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramView.swift; path = GMTPod/HistogramView.swift; sourceTree = "<group>"; };
 		4338076AFA309503FD378829D95F1202 /* Pods-GMTApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMTApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5DD11B77DFF8EDDF20BFBFADC46DEAFF /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = GMTPod/Category.swift; sourceTree = "<group>"; };
 		6131943B24C30DB525E2335B3CC70FAB /* Pods-GMTApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMTApp-dummy.m"; sourceTree = "<group>"; };
+		678AD34E1A7C2EEEBBA12693E6396605 /* BarChartObj.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartObj.swift; path = GMTPod/BarChartObj.swift; sourceTree = "<group>"; };
+		6A240F15C78D0C2DE357F1DD3A496D20 /* GMTPod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMTPod.h; path = GMTPod/GMTPod.h; sourceTree = "<group>"; };
 		6BBED5E7ECA16F5F2D0A94C19C2E4705 /* Pods-GMTApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMTApp-umbrella.h"; sourceTree = "<group>"; };
-		78751D7A1589BB24C1FE833017D991F7 /* GMTPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMTPod-dummy.m"; sourceTree = "<group>"; };
-		7944E3418B29FF1DE278DFCD28595078 /* Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Border.swift; path = GMTPod/Border.swift; sourceTree = "<group>"; };
-		7DA6EFB1C5B702D307D2E55C17CD98FC /* PieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = GMTPod/PieChartView.swift; sourceTree = "<group>"; };
-		7F5BE2C0F492017D30BCCFD94223D0CD /* AxesText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxesText.swift; path = GMTPod/AxesText.swift; sourceTree = "<group>"; };
+		76057D31D59611193E9F680C0071F60A /* AxesText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxesText.swift; path = GMTPod/AxesText.swift; sourceTree = "<group>"; };
+		7637ADD37FFE5FC06498F9B58DA101DB /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = GMTPod/Graph.swift; sourceTree = "<group>"; };
+		774F6AC4DFD65A82B2919B1581258F89 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F8ADC0A68B2F4674D90905A44D3BD7D /* TitlePlacement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitlePlacement.swift; path = GMTPod/TitlePlacement.swift; sourceTree = "<group>"; };
+		89ADC6E7EFC912C2D0EC3106DB78FF58 /* GMTPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMTPod-Info.plist"; sourceTree = "<group>"; };
+		89B3A875990B74139F4235FBFDC19F2D /* GMTPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GMTPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CA85BAB5FFA25CA68A698D01F94B041 /* ParentGraph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParentGraph.swift; path = GMTPod/ParentGraph.swift; sourceTree = "<group>"; };
 		8FB5EA03044AFAC6F5D2034EED8B9952 /* Pods-GMTApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTApp.release.xcconfig"; sourceTree = "<group>"; };
-		9466B887A3AA39441DE082F831BB4115 /* GMTPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMTPod.xcconfig; sourceTree = "<group>"; };
+		93A8728E97491448FFF3DC040D5074DF /* GMTPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMTPod.xcconfig; sourceTree = "<group>"; };
+		9CFC406897CCDEA4A022892407279C3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D41BEA0D4278D083B1E2579587D7442 /* Pods-GMTApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3DABDCC64B0FE62F7F3C775BF610146 /* Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Border.swift; path = GMTPod/Border.swift; sourceTree = "<group>"; };
 		A4C8523C3C822F051FF92D9BC389C5BB /* Pods_GMTApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMTApp.framework; path = "Pods-GMTApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2CA328002BE2C54D9DF4448FA620D9 /* GMTPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMTPod-Info.plist"; sourceTree = "<group>"; };
-		BD45714AF324DC395CFAA37096B641D5 /* GMTPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMTPod.modulemap; sourceTree = "<group>"; };
+		A9FC879BE9EE9E144633A653D7BB2C47 /* PieChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartView.swift; path = GMTPod/PieChartView.swift; sourceTree = "<group>"; };
+		B7E0826ABAA722B5177946ECE6C2AEAF /* AxisFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisFormatter.swift; path = GMTPod/AxisFormatter.swift; sourceTree = "<group>"; };
+		BBD232E18F5C8F662795287368FDC043 /* HistogramView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramView.swift; path = GMTPod/HistogramView.swift; sourceTree = "<group>"; };
+		BE17302D878BC48703B4C1DED85A4C1F /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = GMTPod/Category.swift; sourceTree = "<group>"; };
 		BF574C9227505CF19F3A59646B0262E5 /* GMTPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMTPod.framework; path = GMTPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C133205211FF870A13AD147B1E0E72F9 /* YAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxis.swift; path = GMTPod/YAxis.swift; sourceTree = "<group>"; };
-		D75AE6ABE42D6BB0E0D6DF5EF258E832 /* LineGraphTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineGraphTest.swift; path = GMTPod/LineGraphTest.swift; sourceTree = "<group>"; };
-		DE725DF350AAB0082C24BCE7F072816E /* AxisFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisFormatter.swift; path = GMTPod/AxisFormatter.swift; sourceTree = "<group>"; };
-		E0A53534FC4CAB28B6480B24BF9B52E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E2B33F191C35B193C282A043D3298325 /* Helperlines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helperlines.swift; path = GMTPod/Helperlines.swift; sourceTree = "<group>"; };
-		E6AB17437774BF42866BE52D9B7343E6 /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = GMTPod/Graph.swift; sourceTree = "<group>"; };
-		F391264E1FEEAC3785F154AD45865384 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F5ADA6645A3CBF338B66B731EDADF5B8 /* GMTPod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMTPod.h; path = GMTPod/GMTPod.h; sourceTree = "<group>"; };
-		FB049004FD7EE25308CA80B7B061848D /* TitlePlacement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitlePlacement.swift; path = GMTPod/TitlePlacement.swift; sourceTree = "<group>"; };
+		C53616E3938B159D290C8CD62874327C /* GMTPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMTPod.modulemap; sourceTree = "<group>"; };
+		CBDA289D29EF33286685F1E15E0E3F4A /* BarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartView.swift; path = GMTPod/BarChartView.swift; sourceTree = "<group>"; };
+		DF4AD839A648C700BB1FF317082333DB /* GMTPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTPod-prefix.pch"; sourceTree = "<group>"; };
+		ECD9444C066B7E8CA10FD554C92C3206 /* Helperlines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helperlines.swift; path = GMTPod/Helperlines.swift; sourceTree = "<group>"; };
+		F2BA89A5FB4434194EE7A9A4B3A67E0E /* LineGraphTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineGraphTest.swift; path = GMTPod/LineGraphTest.swift; sourceTree = "<group>"; };
+		FCE332944F4F760235463C86F2112650 /* Title.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Title.swift; path = GMTPod/Title.swift; sourceTree = "<group>"; };
 		FD402E35D860FE80D073F6CF2F397D48 /* Pods-GMTApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMTApp.modulemap"; sourceTree = "<group>"; };
+		FDA9EBC0D7F825F9462C9DAAF3B084D0 /* GMTPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTPod-umbrella.h"; sourceTree = "<group>"; };
+		FF23FEF7AA77A17AAA7A09099E24FB3A /* YAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxis.swift; path = GMTPod/YAxis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		015D110FEF8857F8F3D8DC19ACB8D233 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F06DD6D573D9FD66F36554D06DBF9016 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		19555538695F687953EAD20E7AA604B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,17 +95,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59C60D7CD264D2E129DF60F1E9F7FAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F1489093618AA021D5BE342A32A23F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		273AFCA5D407B730F1EB30D3D85FD3B4 /* Pod */ = {
+		307DD602BE9A89AF984F2A20718B5F83 /* GMTPod */ = {
 			isa = PBXGroup;
 			children = (
-				2032B9287AA568E540263ACF33E71E6A /* GMTPod.podspec */,
-				F391264E1FEEAC3785F154AD45865384 /* LICENSE */,
-				E0A53534FC4CAB28B6480B24BF9B52E6 /* README.md */,
+				76057D31D59611193E9F680C0071F60A /* AxesText.swift */,
+				B7E0826ABAA722B5177946ECE6C2AEAF /* AxisFormatter.swift */,
+				678AD34E1A7C2EEEBBA12693E6396605 /* BarChartObj.swift */,
+				CBDA289D29EF33286685F1E15E0E3F4A /* BarChartView.swift */,
+				A3DABDCC64B0FE62F7F3C775BF610146 /* Border.swift */,
+				BE17302D878BC48703B4C1DED85A4C1F /* Category.swift */,
+				6A240F15C78D0C2DE357F1DD3A496D20 /* GMTPod.h */,
+				7637ADD37FFE5FC06498F9B58DA101DB /* Graph.swift */,
+				ECD9444C066B7E8CA10FD554C92C3206 /* Helperlines.swift */,
+				BBD232E18F5C8F662795287368FDC043 /* HistogramView.swift */,
+				2EBDF2146AA987E417BB160297E4EDEB /* InfoBox.swift */,
+				F2BA89A5FB4434194EE7A9A4B3A67E0E /* LineGraphTest.swift */,
+				8CA85BAB5FFA25CA68A698D01F94B041 /* ParentGraph.swift */,
+				A9FC879BE9EE9E144633A653D7BB2C47 /* PieChartView.swift */,
+				FCE332944F4F760235463C86F2112650 /* Title.swift */,
+				7F8ADC0A68B2F4674D90905A44D3BD7D /* TitlePlacement.swift */,
+				00C6D488FFF958B7957B74A20DC13994 /* TrendLine.swift */,
+				FF23FEF7AA77A17AAA7A09099E24FB3A /* YAxis.swift */,
+				6262C077D8D3EB5B4D624DF948C659A2 /* Pod */,
+				3E47DD527CCE4B749CB7B980CEA6B55B /* Support Files */,
 			);
-			name = Pod;
+			name = GMTPod;
+			path = /Users/sarinabibaek/Documents/Libraries/GMTPod;
+			sourceTree = "<absolute>";
+		};
+		3E47DD527CCE4B749CB7B980CEA6B55B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53616E3938B159D290C8CD62874327C /* GMTPod.modulemap */,
+				93A8728E97491448FFF3DC040D5074DF /* GMTPod.xcconfig */,
+				0BD1F67063FABDA73B83BF6E3E7FE7D9 /* GMTPod-dummy.m */,
+				89ADC6E7EFC912C2D0EC3106DB78FF58 /* GMTPod-Info.plist */,
+				DF4AD839A648C700BB1FF317082333DB /* GMTPod-prefix.pch */,
+				FDA9EBC0D7F825F9462C9DAAF3B084D0 /* GMTPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../../Desktop/GMTApp/Pods/Target Support Files/GMTPod";
 			sourceTree = "<group>";
 		};
 		48EB5E896878184D4587667E14C7CE53 /* Targets Support Files */ = {
@@ -122,18 +156,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7A848638FFE2BDC6902C11813A9595C9 /* Support Files */ = {
+		6262C077D8D3EB5B4D624DF948C659A2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BD45714AF324DC395CFAA37096B641D5 /* GMTPod.modulemap */,
-				9466B887A3AA39441DE082F831BB4115 /* GMTPod.xcconfig */,
-				78751D7A1589BB24C1FE833017D991F7 /* GMTPod-dummy.m */,
-				BA2CA328002BE2C54D9DF4448FA620D9 /* GMTPod-Info.plist */,
-				34E0DFBAFA115EF837AC8A441EF90DE2 /* GMTPod-prefix.pch */,
-				1B35BE5BDE51A8B2EA5240A18CD67512 /* GMTPod-umbrella.h */,
+				89B3A875990B74139F4235FBFDC19F2D /* GMTPod.podspec */,
+				774F6AC4DFD65A82B2919B1581258F89 /* LICENSE */,
+				9CFC406897CCDEA4A022892407279C3F /* README.md */,
 			);
-			name = "Support Files";
-			path = "../../../Desktop/GMTApp/Pods/Target Support Files/GMTPod";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		79E9DE31F3385AB97FF752A6F4B3F14D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				307DD602BE9A89AF984F2A20718B5F83 /* GMTPod */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7C028385CC93288618EF7F1FC03647BD /* Products */ = {
@@ -162,41 +200,6 @@
 			path = "Target Support Files/Pods-GMTApp";
 			sourceTree = "<group>";
 		};
-		8644E50151C45D8F09B779BF189630C6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A91D3B1D340FFE859DD2C65B5D23761A /* GMTPod */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A91D3B1D340FFE859DD2C65B5D23761A /* GMTPod */ = {
-			isa = PBXGroup;
-			children = (
-				7F5BE2C0F492017D30BCCFD94223D0CD /* AxesText.swift */,
-				DE725DF350AAB0082C24BCE7F072816E /* AxisFormatter.swift */,
-				232066DCB1277656FE4F671EB10A724C /* BarChartObj.swift */,
-				0AD8D2DB9ABE6F7993287F9497035A94 /* BarChartView.swift */,
-				7944E3418B29FF1DE278DFCD28595078 /* Border.swift */,
-				5DD11B77DFF8EDDF20BFBFADC46DEAFF /* Category.swift */,
-				F5ADA6645A3CBF338B66B731EDADF5B8 /* GMTPod.h */,
-				E6AB17437774BF42866BE52D9B7343E6 /* Graph.swift */,
-				E2B33F191C35B193C282A043D3298325 /* Helperlines.swift */,
-				35D5739DDCF68AD8A04A640E34E8E08C /* HistogramView.swift */,
-				09C3480614806C9337D3B8C8FA17E1C5 /* InfoBox.swift */,
-				D75AE6ABE42D6BB0E0D6DF5EF258E832 /* LineGraphTest.swift */,
-				7DA6EFB1C5B702D307D2E55C17CD98FC /* PieChartView.swift */,
-				26E4000068DA33EA70234820880C7B37 /* Title.swift */,
-				FB049004FD7EE25308CA80B7B061848D /* TitlePlacement.swift */,
-				22A0F81EDE354B6AF3D41697A24A5648 /* TrendLine.swift */,
-				C133205211FF870A13AD147B1E0E72F9 /* YAxis.swift */,
-				273AFCA5D407B730F1EB30D3D85FD3B4 /* Pod */,
-				7A848638FFE2BDC6902C11813A9595C9 /* Support Files */,
-			);
-			name = GMTPod;
-			path = /Users/sarinabibaek/Documents/Libraries/GMTPod;
-			sourceTree = "<absolute>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8644E50151C45D8F09B779BF189630C6 /* Development Pods */,
+				79E9DE31F3385AB97FF752A6F4B3F14D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7C028385CC93288618EF7F1FC03647BD /* Products */,
 				48EB5E896878184D4587667E14C7CE53 /* Targets Support Files */,
@@ -235,12 +238,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97B48A751DFDE5A7C6C4464C2B3B7EC0 /* Headers */ = {
+		F010434A4113AB0A1A8B1396343C9814 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0FB7753795C0F849DB50127C2B7C6BE /* GMTPod-umbrella.h in Headers */,
-				4F4739859D6473A20C82E0E308CF3B77 /* GMTPod.h in Headers */,
+				C5BEDAC9E3B9E4922038593C9EC38D53 /* GMTPod-umbrella.h in Headers */,
+				9889AFB1C05EA4FBDA500A4E14C007B5 /* GMTPod.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +271,12 @@
 		};
 		1BE6C54702F9BDE7DF8AB9C081AA4209 /* GMTPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94A687DFD00DB69DAB26C6197BB94F17 /* Build configuration list for PBXNativeTarget "GMTPod" */;
+			buildConfigurationList = 00EDF61EBF211417B1C39B19B91BB21F /* Build configuration list for PBXNativeTarget "GMTPod" */;
 			buildPhases = (
-				97B48A751DFDE5A7C6C4464C2B3B7EC0 /* Headers */,
-				FC5D772C43F73BC66E61A2B8AD75DE5D /* Sources */,
-				015D110FEF8857F8F3D8DC19ACB8D233 /* Frameworks */,
-				C80F4AF816C9AC77C802DA4EA5D32850 /* Resources */,
+				F010434A4113AB0A1A8B1396343C9814 /* Headers */,
+				3560B9275C6325B1796276250984E1DF /* Sources */,
+				59C60D7CD264D2E129DF60F1E9F7FAD9 /* Frameworks */,
+				9D410935DA447DF08B77057D56C70862 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -312,7 +315,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C80F4AF816C9AC77C802DA4EA5D32850 /* Resources */ = {
+		9D410935DA447DF08B77057D56C70862 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,35 +332,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3560B9275C6325B1796276250984E1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A095B4897539AD94CD5BE3CC418D242 /* AxesText.swift in Sources */,
+				ECAB3ED0CBE4B9524174C5C76B7CFD7D /* AxisFormatter.swift in Sources */,
+				E77D04AC9550C6223F4800D919A89A20 /* BarChartObj.swift in Sources */,
+				32625EC6816C70F0A2E06AAAB254EF9B /* BarChartView.swift in Sources */,
+				8E20C74E16538B59077D8CA21D811A00 /* Border.swift in Sources */,
+				9F587C441FFCDEE8ECFF567E45F22452 /* Category.swift in Sources */,
+				EE45D6F93488C8E0F50777FA789E5E23 /* GMTPod-dummy.m in Sources */,
+				1A9054D9C4EAE79572D0088FFC9DBD26 /* Graph.swift in Sources */,
+				1696ADE7645433CE4CF1F96F674D8557 /* Helperlines.swift in Sources */,
+				B463B3FD466DB14C9F4FD43F5B5274FC /* HistogramView.swift in Sources */,
+				6A429360236893E5C555DD94869DE95F /* InfoBox.swift in Sources */,
+				C0B2AD6ACCCC64961F4AD08CA959FB53 /* LineGraphTest.swift in Sources */,
+				D772C9485C1060317AF1A6B666F02E80 /* ParentGraph.swift in Sources */,
+				507929BF7B47105A8DF6A63669390586 /* PieChartView.swift in Sources */,
+				FA1D17A599832EC64011934AE6010D0D /* Title.swift in Sources */,
+				4859C1CA73D36E15B215BED541A4C5CF /* TitlePlacement.swift in Sources */,
+				81567A9841CF678823BBD7881C588922 /* TrendLine.swift in Sources */,
+				4B37A12791177DF505A197482BFAC140 /* YAxis.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90BCD225652E099512B54CA786C54BA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FB258119590CFFD79BA6E5CA1DC02235 /* Pods-GMTApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC5D772C43F73BC66E61A2B8AD75DE5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5511930AB20101AD7249D48C4B1EEFB /* AxesText.swift in Sources */,
-				C03A196AF4356A7AEBDDC0F4E0305E49 /* AxisFormatter.swift in Sources */,
-				24FFD46D50698170A6712F8C64666FCB /* BarChartObj.swift in Sources */,
-				F92F81E213BBC990807E5F321282743D /* BarChartView.swift in Sources */,
-				40ECDEFE08D345F259603EB94A8EEF42 /* Border.swift in Sources */,
-				9DD619239A9B82ADD35A42E4D401A487 /* Category.swift in Sources */,
-				A1CA703407D3C78C87D3A08685914CC2 /* GMTPod-dummy.m in Sources */,
-				F6BEB4743206BAB75A6749AE7B5DA9A8 /* Graph.swift in Sources */,
-				A8DC527B52DEF1502D99B84708819B14 /* Helperlines.swift in Sources */,
-				1318255ECDA1F4C3F0F36DFAAFAC8538 /* HistogramView.swift in Sources */,
-				D55F24B0FB3ABDC627AA68A040334EFD /* InfoBox.swift in Sources */,
-				B900987D9C518BCBB8696E7BF3FDF94D /* LineGraphTest.swift in Sources */,
-				8756819DB761656803B0A2C59A2875A3 /* PieChartView.swift in Sources */,
-				DFB92F1D6FA8D5C7610039036DD95D61 /* Title.swift in Sources */,
-				EC62AAEFD1E2EE22E74B8A451FDADD4F /* TitlePlacement.swift in Sources */,
-				52BE2D05FA873F62C327875EA31D197E /* TrendLine.swift in Sources */,
-				274BB80EA9C91F2C1A3593B1E8381DA9 /* YAxis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,43 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2295A936F7B42CEFEE240E5328FF7A11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9466B887A3AA39441DE082F831BB4115 /* GMTPod.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GMTPod/GMTPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GMTPod/GMTPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GMTPod/GMTPod.modulemap";
-				PRODUCT_MODULE_NAME = GMTPod;
-				PRODUCT_NAME = GMTPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -534,9 +501,9 @@
 			};
 			name = Debug;
 		};
-		7168190EE2F306526768C9582B7BC41C /* Debug */ = {
+		740C293FB03BA9069BBD5DCEBED91C3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9466B887A3AA39441DE082F831BB4115 /* GMTPod.xcconfig */;
+			baseConfigurationReference = 93A8728E97491448FFF3DC040D5074DF /* GMTPod.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -565,10 +532,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B223BF302ADDCA93C10E2F8E8EBCC545 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -647,9 +615,54 @@
 			};
 			name = Debug;
 		};
+		FFF66E4F37C1CF2EB68A7B9E32856664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A8728E97491448FFF3DC040D5074DF /* GMTPod.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GMTPod/GMTPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMTPod/GMTPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GMTPod/GMTPod.modulemap";
+				PRODUCT_MODULE_NAME = GMTPod;
+				PRODUCT_NAME = GMTPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00EDF61EBF211417B1C39B19B91BB21F /* Build configuration list for PBXNativeTarget "GMTPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF66E4F37C1CF2EB68A7B9E32856664 /* Debug */,
+				740C293FB03BA9069BBD5DCEBED91C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2EAF108B83F400917DCFF3627A40CBD7 /* Build configuration list for PBXNativeTarget "Pods-GMTApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -664,15 +677,6 @@
 			buildConfigurations = (
 				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
 				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94A687DFD00DB69DAB26C6197BB94F17 /* Build configuration list for PBXNativeTarget "GMTPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7168190EE2F306526768C9582B7BC41C /* Debug */,
-				2295A936F7B42CEFEE240E5328FF7A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
