@@ -174,16 +174,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D1F3AF77-99A0-445E-90E9-A9F84F6F5941"
+            uuid = "A1E2C9F4-76DF-4D1C-97C2-D23A60635512"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Documents/Libraries/GMTPod/GMTPod/PieChartView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "420"
-            endingLineNumber = "420"
-            landmarkName = "animateFill(pieChart:circleCenter:)"
+            startingLineNumber = "549"
+            endingLineNumber = "549"
+            landmarkName = "setCircleCenter(pieHeight:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B1D1396-1218-47D1-93F4-CD7D9342549D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Documents/Libraries/GMTPod/GMTPod/PieChartView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "501"
+            endingLineNumber = "501"
+            landmarkName = "calculatePieBorders()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
